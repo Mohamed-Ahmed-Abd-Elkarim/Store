@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/store.css">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- Start Header  -->
+        <div class="header">
+            <div class="container">
+                <a href="#" class="logo">
+                    <i class="fa-solid fa-store"></i>
+                    <h2>Store</h2>
+                </a>
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul> 
+            </nav>
+            </div>
+        </div>
+        <!-- End Header -->
+        <!-- Start Landing  -->
+        <div class="landing">
+            <div class="container">
+                <div class="text">
+                    <p>Outfit Of The Day</p>
+                    <h1><span>All your</span><br>Styles are Here</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque unde sunt eum illum ab tempora illo iure sequi minus culpa.</p>
+                    <a href="#">Buy Now </a>
+                </div>
+                <div class="image">
+                    <img id="main-image" src="images/jacket1.png" alt="">
+                </div>
+            </div>
+            <div class="small-img">
+                <img onclick="change(this.src)" src="images/jacket1.png" alt="">
+                <img onclick="change(this.src)" src="images/jacket2.png" alt="">
+                <img onclick="change(this.src)" src="images/jacket3.png" alt="">
+            </div>
+        </div>
+        <!-- End Landing  -->
+        <!-- Start Banner Area -->
+        <div class="banners">
+            <div class="holder">
+                <div class="image">
+                        <img src="images/img2.webp" alt="">
+                    <div class="text">
+                        <span>- Up To -</span>
+                        <h3>30% Off</h3>
+                        <p>Black Friday Discount</p>
+                    </div>
+                </div>
+                <div class="image">
+                        <img src="images/img3.webp" alt="">
+                    <div class="text">
+                        <h3>Trand <br>2022.</h3>
+                    </div>
+                </div>
+                <div class="banner-1">
+                    <img src="images/img1.webp" alt="">
+                <div class="text">
+                    <h3>BLUE<br><span>Glasses</span></h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- End Banner Area -->
+        <!-- Start New Arrivals -->
+        <div class="arrivals">
+            <div class="container">
+                <h2 class="main-title">New Arrivals</h2>
+                <div class="holder">
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/1.webp" alt="">
+                            <div class="hot">Hot</div>
+                            <ul class="product">
+                            <li><a class="heart" href="#Heart"><i class="fa-regular fa-heart"></i></a></li>
+                            <li><a class="shoping" href="#Shoping"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                            <li><a class="show" href="#show"><i class="fa-solid fa-eye"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="text">
+                            <h3>Dagger Smart Trousers</h3>
+                            <div class="price">$115.00</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/2.webp" alt="">
+                            <div class="hot">Hot</div>
+                            <ul class="product">
+                                <li><a class="heart" href="#Heart"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a class="shoping" href="#Shoping"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                                <li><a class="show" href="#show"><i class="fa-solid fa-eye"></i></a></li>
+                                </ul>
+                        </div>
+                        <div class="text">
+                            <h3>Dagger Smart Trousers</h3>
+                            <div class="price">$115.00</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/3.webp" alt="">
+                            <div class="hot">Hot</div>
+                            <ul class="product">
+                                <li><a class="heart" href="#Heart"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a class="shoping" href="#Shoping"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                                <li><a class="show" href="#show"><i class="fa-solid fa-eye"></i></a></li>
+                                </ul>
+                        </div>
+                        <div class="text">
+                            <h3>Dagger Smart Trousers</h3>
+                            <div class="price">$115.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End New Arrivals -->
+        <!-- Start Our Collection -->
+        <div class="collection">
+            <div class="container">
+                <div class="box">
+                    <img src="images/4.webp" alt="">
+                    <div class="text-1">
+                        <p>20%<br><span>Off</span></p>
+                        <h2>Trending <span>Fashion 2022...</span></h2>
+                    </div>
+                </div>
+                <div class="main-box">
+                    <div class="box box-2">
+                        <img src="images/5.webp" alt="">
+                        <div class="text-1">
+                            <h3>Winter Collection</h3>
+                            <a href="#" class="show">Show Now</a>
+                        </div>
+                    </div>
+                    <div class="small-boxes">
+                        <div class="box">
+                            <img src="images/6.webp" alt="">
+                            <div class="text-2">
+                                <h3>New <br> <span>Fashion</span></h3>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="images/7.webp" alt="">
+                            <div class="text-2">
+                                <p>25 December.</p>
+                                <h4>Gift<br>Shop</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Our Collection -->
+        <!-- Start All Products -->
+        <div class="products" id="shop">
+            <div class="container">
+                <h2 class="main-title">All Products</h2>
+                <div class="holder">
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/product1.webp" alt="">
+                            <div class="hot">Hot</div>
+                            <ul class="product">
+                                <li><a class="heart" href="#Heart"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a class="shoping" href="#Shoping"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                                <li><a class="show" href="#show"><i class="fa-solid fa-eye"></i></a></li>
+                                </ul>
+                        </div>
+                        <div class="text">
+                            <h3>Black Faux Suede</h3>
+                            <div class="price">$115.00</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/product2.webp" alt="">
+                            <ul class="product">
+                                <li><a class="heart" href="#Heart"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a class="shoping" href="#Shoping"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                                <li><a class="show" href="#show"><i class="fa-solid fa-eye"></i></a></li>
+                                </ul>
+                        </div>
+                        <div class="text">
+                            <h3>Denim Stonewash</h3>
+                            <div class="price">$115.00</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/product3.webp" alt="">
+                            <div class="hot">Hot</div>
+                            <ul class="product">
+                                <li><a class="heart" href="#Heart"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a class="shoping" href="#Shoping"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                                <li><a class="show" href="#show"><i class="fa-solid fa-eye"></i></a></li>
+                                </ul>
+                        </div>
+                        <div class="text">
+                            <h3>Mini Waffle 5 Pack</h3>
+                            <div class="price">$115.00</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/product4.webp" alt="">
+                            <ul class="product">
+                                <li><a class="heart" href="#Heart"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a class="shoping" href="#Shoping"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                                <li><a class="show" href="#show"><i class="fa-solid fa-eye"></i></a></li>
+                                </ul>
+                        </div>
+                        <div class="text">
+                            <h3>Dagger Smart Trousers</h3>
+                            <div class="price">$115.00</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/product5.webp" alt="">
+                            <div class="hot">Hot</div>
+                            <ul class="product">
+                                <li><a class="heart" href="#Heart"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a class="shoping" href="#Shoping"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                                <li><a class="show" href="#show"><i class="fa-solid fa-eye"></i></a></li>
+                                </ul>
+                        </div>
+                        <div class="text">
+                            <h3>Navy Bird Print</h3>
+                            <div class="price">$115.00</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/product6.webp" alt="">
+                            <ul class="product">
+                                <li><a class="heart" href="#Heart"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a class="shoping" href="#Shoping"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                                <li><a class="show" href="#show"><i class="fa-solid fa-eye"></i></a></li>
+                                </ul>
+                        </div>
+                        <div class="text">
+                            <h3>Homme Tapered Smart</h3>
+                            <div class="price">$115.00</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/product7.webp" alt="">
+                            <div class="hot">Hot</div>
+                            <ul class="product">
+                                <li><a class="heart" href="#Heart"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a class="shoping" href="#Shoping"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                                <li><a class="show" href="#show"><i class="fa-solid fa-eye"></i></a></li>
+                                </ul>
+                        </div>
+                        <div class="text">
+                            <h3>Arifo Stylas Dress</h3>
+                            <div class="price">$115.00</div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/product8.webp" alt="">
+                            <ul class="product">
+                                <li><a class="heart" href="#Heart"><i class="fa-regular fa-heart"></i></a></li>
+                                <li><a class="shoping" href="#Shoping"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                                <li><a class="show" href="#show"><i class="fa-solid fa-eye"></i></a></li>
+                                </ul>
+                        </div>
+                        <div class="text">
+                            <h3>Jacket Stonewash</h3>
+                            <div class="price">$115.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End All Products -->
+        <!-- Start Our Style -->
+        <div class="style">
+            <div class="container">
+                <div class="box">
+                    <img src="images/style1.webp" alt="">
+                    <div class="text-1">
+                        <span>special</span>
+                        <h3>Style</h3>
+                        <p>Start From %299.00</p>
+                    </div>
+                </div>
+                <div class="main-box">
+                    <div class="small-box">
+                        <div class="box">
+                            <img src="images/style2.webp" alt="">
+                            <div class="text-2">
+                                <a href="#show">Show Now</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="images/style3.webp" alt="">
+                            <div class="text-2">
+                                <a class="active" href="#show">Show Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-box">
+                        <div class="box">
+                            <img src="images/style4.webp" alt="">
+                            <div class="text-2">
+                                <a href="#show">Show Now</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="images/style5.webp" alt="">
+                            <div class="text-2">
+                                <a href="#show">Show Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Our Style -->
+        <!-- Start Insta Feed -->
+        <div class="insta-feed">
+            <div class="container">
+            <div class="text">
+                <h2>Insta Feed</h2>
+                <p>Follow Us On Instagram <a target="_blank" href="https://www.instagram.com/mohamed_ahmed_abdelkarimm/" class="insta">@Ezonepro</a></p>
+            </div>
+            <div class="holder">
+                <div class="image">
+                    <img src="images/insta-1.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/insta-2.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/insta-3.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/insta-4.webp" alt="">
+                </div>
+                <div class="image">
+                    <img src="images/insta-5.webp" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- End Insta Feed -->
+        <!-- Start Footer -->
+        <div class="footer" id="contact">
+            <div class="container">
+                <div class="box">
+                    <h3>Custom Service</h3>
+                    <ul class="links">
+                        <li><a href="#cart">Cart</a></li>
+                        <li><a href="#My Account">My Account</a></li>
+                        <li><a href="#Login">Login</a></li>
+                        <li><a href="#Register">Register</a></li>
+                        <li><a href="#Support">Support</a></li>
+                        <li><a href="#Track">Track</a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Gategories</h3>
+                    <ul class="links">
+                        <li><a href="#Dress">Dress</a></li>
+                        <li><a href="#Shoes">Shoes</a></li>
+                        <li><a href="#Shitrt">Shitrt</a></li>
+                        <li><a href="#Baby Product">Baby Product</a></li>
+                        <li><a href="#Mans Product">Mans Product</a></li>
+                        <li><a href="#Leather">Leather</a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Contact</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is dummy.</p>
+                    <form action="">
+                        <input type="email" placeholder="Enter Your Email" required>
+                        <div class="send">
+                            <input type="submit">
+                        </div>
+                    </form>
+                    <div class="location">
+                        <div class="loca">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>77 Seventh avenue USA 12555.</span>
+                        </div>
+                        <div class="loca">
+                            <i class="fa-solid fa-headset"></i>
+                            <span>+88 (015) 609735 or +88 (012) 112266</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copy-right">Copyright © <span>Store</span> 2022 . All Right Reserved.</p>
+        <!-- End Footer -->
+        <span class="up"><i class="fa-solid fa-angles-up"></i></span>
+    <script src="main.js"></script>
+</body>
+</html>
